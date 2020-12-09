@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=DistanzaMinima
+ProjectName            :=DividiInteri
 ConfigurationName      :=Debug
 WorkspacePath          :=C:/Users/Fabio/Documents/ProgrammiSecondoSemestre
-ProjectPath            :=C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/DistanzaMinima
+ProjectPath            :=C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/DividiInteri
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Fabio
-Date                   :=26/06/2019
+Date                   :=28/06/2019
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="DistanzaMinima.txt"
+ObjectsFileList        :="DividiInteri.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/DistanzaMinima/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/DividiInteri/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 

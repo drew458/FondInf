@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=DistanzaMinima
+ProjectName            :=ContaCifre
 ConfigurationName      :=Debug
 WorkspacePath          :=C:/Users/Fabio/Documents/ProgrammiSecondoSemestre
-ProjectPath            :=C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/DistanzaMinima
+ProjectPath            :=C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/ContaCifre
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="DistanzaMinima.txt"
+ObjectsFileList        :="ContaCifre.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/DistanzaMinima/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/Fabio/Documents/ProgrammiSecondoSemestre/ContaCifre/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
