@@ -1,0 +1,1 @@
+int sommaElementi(int numeri[], int lunghezza);

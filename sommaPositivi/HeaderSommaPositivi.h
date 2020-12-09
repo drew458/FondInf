@@ -1,0 +1,1 @@
+int sommaPositivi(int interi[], int lunghezza);
