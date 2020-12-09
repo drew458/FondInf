@@ -1,0 +1,1 @@
+./Debug/main.c.o ./Debug/MCD.c.o ./Debug/ControlloNumeri.c.o ./Debug/MCM.c.o   
