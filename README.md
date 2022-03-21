@@ -1,2 +1,2 @@
-# Computer Foundamentals
-University course dedicated to C language and algorithms.
+# Computer Foundations
+University course dedicated to C language and generic algorithms.
